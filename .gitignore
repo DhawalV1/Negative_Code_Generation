@@ -1,0 +1,50 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+.env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Models ----
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# ---- Data ----
+ppo_ckpt_1300/
+ppo_ckpt_1400/
+ppo_ckpt_1500/
+ppo_ckpt_1600/
+ppo_ckpt_1700/
+data/
+dataset/
+datasets/
+*.csv
+*.npy
+*.npz
+*.pkl
+*.hdf5
+qwen_model_local/
+qwen-echo-trainer/
+job*
+index*
+phase*
+proxy*
+
+# ---- Logs & outputs ----
+logs/
+outputs/
+wandb/
+runs/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
