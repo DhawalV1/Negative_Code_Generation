@@ -1,3 +1,5 @@
+#This is the training loop for PPO in which TRl is not used
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
